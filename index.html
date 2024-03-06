@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamic Book Store</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css">
+    <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway Dots' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header class="header">
+
+    <!--<div class="header-3">
+        <div class="upper">
+           <div class="links">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+           </div>
+           <div class="pages"><p> new <a href="login.php">login</a>  |  <a href="register.php">register</a> </p></div>
+        </div>
+    </div>
+-->
+    <div class="header-1">
+        <a href="#" class="logo"><i class="fa-solid fa-book"></i> Bayt Al-Ilm</a>
+
+        <form action="" class="search-form" >
+            <input type="search" name="" placeholder="Search Here" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="icons">
+            <div id="search-btn" class="ri-search-line"></div>
+            <a href="#" class="ri-heart-line"></a>
+            <a href="#"class="ri-shopping-cart-line"></a>
+            <div id="login-button" class="ri-user-line login-button"></div>
+            
+        </div>
+    </div>
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#featured">Featured</a>
+            <a href="#arrivals">New Books</a>
+            <a href="#reviews">Reviews</a>
+        </nav>
+    </div>
+   </header>
+    
+
+   <nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#newbooks" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    
+   </nav>
+
+   <!--login-->
+
+   <div class="login-form-container" id="login-content">
+    <div id="close-login-btn" class="fas fa-times"></div>
+    <form action="" method="">
+        <h3>Log in</h3>
+        <span>Username</span>
+        <input type="email" name="email" class="box"placeholder="Enter Your Email" id="email">
+        <span>Password</span>
+        <input type="password" name="password" class="box" placeholder="Enter Your Password" id="password">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">Remember Me</label>
+        </div>
+        <input type="submit" name="submit" value="Log in" class="btn">
+        <p>Forget Password ? <a href="#">Click Here</a></p>
+        <p>Dont have an account ? <a href="#">Create One Now!</a></p>
+    </form>
+   </div>
+
+
+   <!--Home section-->
+   <section class="home" id="home">
+    <div class="row">
+        <div class="content">
+            <h3>Dive Into Islamic Wisdom</h3>
+            <p>Explore the profound teachings of Islamic wisdom, offering insights to navigate life's journey with clarity and purpose. Discover timeless truths that resonate with seekers of inner peace, inviting reflection and growth.</p>
+            <a href="#" class="btn">Discover Now</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#"class="swiper-slide"><img src="images/Book1.png" alt=""></a>
+                <a href="#"class="swiper-slide"><img src="images/Book2.png" alt=""></a>
+                <a href="#"class="swiper-slide"><img src="images/book3.png" alt=""></a>
+                <a href="#"class="swiper-slide"><img src="images/Book4.png" alt=""></a>
+                <a href="#"class="swiper-slide"><img src="images/Book5.png" alt=""></a>
+                <a href="#"class="swiper-slide"><img src="images/Book6.png" alt=""></a>
+            </div>
+            <img src="images/stand.png" class="stand" alt="">
+        </div>
+    </div>
+</section>
+
+<!--icons-->
+
+<section class="icons-container">
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>Free Shipping</h3>
+            <p>Order more than $100</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>Secure Payment</h3>
+            <p>100% Secure payment</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>Easy Returns</h3>
+            <p>return in 10 days</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 Support</h3>
+            <p>Call us anytime</p>
+        </div>
+    </div>
+
+</section>
+
+<!--featured-->
+<section class="Featured" id="featured">
+    <h1 class="heading"><span>Featured Books</span></h1>
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    
+                    
+                    <div class="icons">
+                        <a href="#" class="ri-search-2-line"></a>
+                        <a href="#" class="ri-heart-2-line"></a>
+                        <a href="#" class="ri-eye-line"></a>
+
+                    </div>
+                    <div class="image">
+                        <img src="images/Book4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Islam and Wedding</h3>
+                        <div class="price">
+                            $15.99
+                            <span>$10.99</span>
+                        </div>
+                        
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/Book5.png" alt="">
+                    </div>
+                    
+                    <div class="content">
+                        <h3>Ramadan</h3>
+                        <div class="price">
+                            $15.99
+                            <span>$10.99</span>
+                        </div>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="ri-search-2-line"></a>
+                        <a href="#" class="ri-heart-2-line"></a>
+                        <a href="#" class="ri-eye-line"></a>
+
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/Book12.png" alt="">
+                    </div>
+                    
+                    <div class="content">
+                        <h3>Seerah</h3>
+                        <div class="price">
+                            $15.99
+                            <span>$10.99</span>
+                        </div>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="ri-search-2-line"></a>
+                        <a href="#" class="ri-heart-2-line"></a>
+                        <a href="#" class="ri-eye-line"></a>
+
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/Book17.png" alt="">
+                    </div>
+                    
+                    <div class="content">
+                        <h3>Story of Reverts</h3>
+                        <div class="price">
+                            $15.99
+                            <span>$10.99</span>
+                        </div>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="ri-search-2-line"></a>
+                        <a href="#" class="ri-heart-2-line"></a>
+                        <a href="#" class="ri-eye-line"></a>
+
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/Book14.png" alt="">
+                    </div>
+                    
+                    <div class="content">
+                        <h3>Ramadan</h3>
+                        <div class="price">
+                            $15.99
+                            <span>$10.99</span>
+                        </div>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="ri-search-2-line"></a>
+                        <a href="#" class="ri-heart-2-line"></a>
+                        <a href="#" class="ri-eye-line"></a>
+
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/Book15.png" alt="">
+                    </div>
+                    
+                    <div class="content">
+                        <h3>Islam and Life</h3>
+                        <div class="price">
+                            $15.99
+                            <span>$10.99</span>
+                        </div>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="icons">
+                        <a href="#" class="ri-search-2-line"></a>
+                        <a href="#" class="ri-heart-2-line"></a>
+                        <a href="#" class="ri-eye-line"></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+</section>
+<!--featured-->
+
+<!--Discount-->
+<section class="discount" id="discount">
+    <div class="discount__container">
+        <div class="discount__data">
+            <h2 class="discount__title section__title">
+                Up to 55% Discount
+            </h2>
+            <p class="discount__description">
+                Explore our  Discount Section for amazing savings! With discounts on a wide range of titles, finding your next favorite read has never been more affordable. Don't miss out on unbeatable prices. Shop now and enjoy the thrill of saving big!
+            </p>
+
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="discount__images">
+            <img src="images/Book10.png" alt="image" class="discount__img-1">
+            <img src="images/Book11.png" alt="image" class="discount__img-2">
+        </div>
+    </div>
+</section>
+
+<section class="newsletter">
+    <form action="">
+        <h3>Subscribe For Latest Updates</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+</section>
+<!--Discount-->
+
+<!--New Arrivals-->
+<section class="arrivals" id="arrivals">
+    <h1 class="heading"><span>New Arrivals</span></h1>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="images/Book12.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Seerah</h3>
+                    <div class="price">$13.99<span> $17.99</span></div>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="images/Book2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Enlightenment</h3>
+                    <div class="price">$13.99<span> $17.99</span></div>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="images/book3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Our Prophet</h3>
+                    <div class="price">$13.99<span> $17.99</span></div>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="images/Book4.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Islam and Wedding</h3>
+                    <div class="price">$13.99<span> $17.99</span></div>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="images/Book5.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Allah's Mercy</h3>
+                    <div class="price">$13.99<span> $17.99</span></div>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="images/Book6.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Love in Islam</h3>
+                    <div class="price">$13.99<span> $17.99</span></div>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="images/Book13.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Night of Blessings</h3>
+                    <div class="price">$13.99<span> $17.99</span></div>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="images/Book14.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ramadan</h3>
+                    <div class="price">$13.99<span> $17.99</span></div>
+                    <div class="stars">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!--New Arrivals-->
+
+
+
+<!--Customer Reviews-->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"><span>Customer's Reviews</span></h1>
+    <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/testimonial-perfil-1.png" alt="">
+                <h3>Marjaan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nisi consequatur sint. Officiis, quasi dignissimos unde nemo optio quae, adipisci esse error reprehenderit, praesentium repellendus molestias distinctio quos. Nam, debitis.</p>
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/testimonial-perfil-4.png" alt="">
+                <h3>Hasim</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nisi consequatur sint. Officiis, quasi dignissimos unde nemo optio quae, adipisci esse error reprehenderit, praesentium repellendus molestias distinctio quos. Nam, debitis.</p>
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/testimonial-perfil-3.png" alt="">
+                <h3>Ayesha</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nisi consequatur sint. Officiis, quasi dignissimos unde nemo optio quae, adipisci esse error reprehenderit, praesentium repellendus molestias distinctio quos. Nam, debitis.</p>
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/testimonial-perfil-2.png" alt="">
+                <h3>Anas</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nisi consequatur sint. Officiis, quasi dignissimos unde nemo optio quae, adipisci esse error reprehenderit, praesentium repellendus molestias distinctio quos. Nam, debitis.</p>
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--Customer Reviews-->
+
+<!--Footer-->
+
+<section class="footer">
+    <div class="box-container">
+
+        <div class="box">
+            <h3>
+                Our Locations
+            </h3>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>Saudi Arabia</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>Afganistan</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>Palestine</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>Lebanon</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>Bangladesh</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>Pakistan</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>Iran</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>India</a>
+        </div>
+
+        <div class="box">
+            <h3>
+                Quick Links
+            </h3>
+            <a href="#"><i class="fas fa-arrow-right"></i>Home</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>Featured</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>Arrivals</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>Reviews</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>Discounts</a>
+        </div>
+
+        <div class="box">
+            <h3>
+                Extra Links
+            </h3>
+            <a href="#"><i class="fas fa-arrow-right"></i>Account Info</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>Ordered Items</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>Privacy Policy</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>Payment Method</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>Services</a>
+        </div>
+
+        <div class="box">
+            <h3>
+                Contact Info
+            </h3>
+            <a href="#"><i class="fas fa-phone"></i>+880-1678-345-901</a>
+            <a href="#"><i class="fas fa-phone"></i>+880-1528-345-704</a>
+            <a href="#"><i class="fas fa-envelope"></i>baytilm23@gmail.com</a>
+            <img src="images/—Pngtree—masjid al aqsa palestina illustration_6314463.png" class="map" alt="">
+           
+        </div>
+
+    </div>
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit">Created By  <span>Maisha Nanjeeba</span>  |All Rights Reserved|</div>
+
+
+
+
+</section>
+
+
+<!--Footer-->
+<script src="images/scrollreveal.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
